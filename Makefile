@@ -6,4 +6,4 @@ build: main.c
 
 .PHONY: test
 test:
-	docker run --rm -it --memory="1g" --memory-swap="1g" megabloat:latest .
+	docker run --rm -it --memory="1g" --memory-swap="1g" megabloat:latest
